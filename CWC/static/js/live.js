@@ -396,7 +396,7 @@ window.addEventListener('statsReady', () => {
             let name = dt3.now_bowling.b1.name;
             let team = dt3.now_bowling.b1.team;
             liveHTML += `<tr>
-                <td class="text-blue" style="text-wrap: nowrap;"><b><a href="/team-${encodeURIComponent(team)}/squad_details/${encodeURIComponent(name)}">${name}</a>&nbsp;<img src="/static/images/Ball.png" width="15px" height="15px"></b></td>
+                <td class="text-blue" style="text-wrap: nowrap;"><b><a href="/team-${encodeURIComponent(team)}/squad_details/${encodeURIComponent(name)}">${name}</a>&nbsp;<img src="/static/images/Ball.png" width="15px" height="15px" onerror="this.onerror=null; this.src='/static/images/ball.png'"></b></td>
                 <td class="px-2">${dt3.now_bowling.b1.stats.overs}</td>
                 <td class="px-2">${dt3.now_bowling.b1.stats.maiden_overs}</td>
                 <td class="px-2">${dt3.now_bowling.b1.stats.runs}</td>
