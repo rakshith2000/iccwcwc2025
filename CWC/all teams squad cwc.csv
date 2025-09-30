@@ -1,0 +1,121 @@
+Player_ID,Name,Team,Captain,Keeper,Role,Batting Style,Bowling Style,Nationality,DOB
+1,Georgia Voll,AUS-W,N,N,Batter,Right Handed,Off Break,Australia,05-08-2003
+2,Phoebe Litchfield,AUS-W,N,N,Batter,Left Handed,Leg Break,Australia,18-04-2003
+3,Annabel Sutherland,AUS-W,N,N,All Rounder,Right Handed,Right Arm Medium fast,Australia,12-10-2001
+4,Ashleigh Gardner,AUS-W,N,N,All Rounder,Right Handed,Off Break,Australia,15-04-1997
+5,Elluse Perry,AUS-W,N,N,All Rounder,Right Handed,Right Arm Fast medium,Australia,03-11-1990
+6,Georgia Wareham,AUS-W,N,N,All Rounder,Right Handed,Leg Break,Australia,26-05-1999
+7,Heather Graham,AUS-W,N,N,All Rounder,Right Handed,Right Arm Medium fast,Australia,05-10-1996
+8,Tahlia McGrath,AUS-W,N,N,All Rounder,Right Handed,Right Arm Medium,Australia,10-11-1995
+9,Alyssa Healy,AUS-W,Y,Y,Wicket Keeper,Right Handed,-,Australia,24-03-1990
+10,Beth Mooney,AUS-W,N,Y,Wicket Keeper,Left Handed,-,Australia,14-01-1994
+11,Alana King,AUS-W,N,N,Bowler,Right Handed,Leg Break,Australia,22-11-1995
+12,Darcie Brown,AUS-W,N,N,Bowler,Right Handed,Right Arm Fast,Australia,07-03-2003
+13,Kim Garth,AUS-W,N,N,Bowler,Right Handed,Right Arm Medium fast,Australia,26-04-1996
+14,Megan Schutt,AUS-W,N,N,Bowler,Right Handed,Right Arm Fast medium,Australia,15-01-1993
+15,Sophie Molineux,AUS-W,N,N,Bowler,Left Handed,Slow Left Arm Orthodox,Australia,17-01-1998
+1,Farzana Haque,BAN-W,N,N,Batter,Right Handed,-,Bangladesh,19-03-1993
+2,Sharmin Akhter,BAN-W,N,N,Batter,Right Handed,-,Bangladesh,31-12-1996
+3,Sobhana Mostary,BAN-W,N,N,Batter,Right Handed,Right Arm Medium,Bangladesh,13-02-2002
+4,Sumaiya Akter,BAN-W,N,N,Batter,Right Handed,Off Break,Bangladesh,15-10-2005
+5,Fahima Khatun,BAN-W,N,N,All Rounder,Right Handed,Leg Break,Bangladesh,02-11-1992
+6,Mst Ritu Moni,BAN-W,N,N,All Rounder,Right Handed,Right Arm Medium,Bangladesh,05-02-1993
+7,Shorna Akter,BAN-W,N,N,All Rounder,Right Handed,Leg Break,Bangladesh,01-01-2007
+8,Nigar Sultana Joty,BAN-W,Y,Y,Wicket Keeper,Right Handed,-,Bangladesh,01-08-1997
+9,Rubya Haider,BAN-W,N,Y,Wicket Keeper,Left Handed,Right Arm Medium,Bangladesh,22-07-1997
+10,Fariha Trisna,BAN-W,N,N,Bowler,Right Handed,Left Arm Medium,Bangladesh,13-09-2002
+11,Marufa Akter,BAN-W,N,N,Bowler,Right Handed,Right Arm Medium fast,Bangladesh,01-01-2005
+12,Nahida Akter,BAN-W,N,N,Bowler,Right Handed,Slow Left Arm Orthodox,Bangladesh,02-11-2000
+13,Nishita Akter Nishi,BAN-W,N,N,Bowler,Right Handed,Off Break,Bangladesh,19-06-2008
+14,Rabeya Khan,BAN-W,N,N,Bowler,Right Handed,Leg Break,Bangladesh,11-03-2005
+15,Shanjida Akther Maghla,BAN-W,N,N,Bowler,Right Handed,Slow Left Arm Orthodox,Bangladesh,04-06-2001
+1,Alice Capsey,ENG-W,N,N,Batter,Right Handed,Right Arm Offbreak,England,11-08-2004
+2,Danni Wyatt-Hodge,ENG-W,N,N,Batter,Right Handed,Right Arm Offbreak,England,22-04-1991
+3,Heather Knight,ENG-W,N,N,Batter,Right Handed,Right Arm Offbreak,England,26-12-1990
+4,Sophia Dunkley,ENG-W,N,N,Batter,Right Handed,Right Arm Legbreak,England,16-07-1998
+5,Charlie Dean,ENG-W,N,N,All Rounder,Right Handed,Right Arm Offbreak,England,22-12-2000
+6,Emma Lamb,ENG-W,N,N,All Rounder,Right Handed,Right Arm Offbreak,England,16-12-1997
+7,Nat Sciver-Brunt,ENG-W,Y,N,All Rounder,Right Handed,Right Arm Medium,England,20-08-1992
+8,Sophie Ecclestone,ENG-W,N,N,All Rounder,Right Handed,Left Arm Orthodox,England,06-05-1999
+9,Amy Jones,ENG-W,N,Y,Wicket Keeper,Right Handed,-,England,13-06-1993
+10,Tammy Beaumont,ENG-W,N,Y,Wicket Keeper,Right Handed,-,England,11-03-1991
+11,Em Arlott,ENG-W,N,N,Bowler,Right Handed,Right Arm Fast medium,England,23-02-1998
+12,Lauren Bell,ENG-W,N,N,Bowler,Right Handed,Right Arm Medium,England,02-01-2001
+13,Lauren Filer,ENG-W,N,N,Bowler,Right Handed,Right Arm Fast medium,England,22-12-2000
+14,Linsey Smith,ENG-W,N,N,Bowler,Left Handed,Left Arm Orthodox,England,10-03-1995
+15,Sarah Glenn,ENG-W,N,N,Bowler,Right Handed,Right Arm Legbreak,England,27-08-1999
+1,Harleen Deol,IND-W,N,N,Batter,Right Handed,Right Arm Offbreak,India,21-06-1998
+2,Harmanpreet Kaur,IND-W,Y,N,Batter,Right Handed,Right Arm Offbreak,India,08-03-1989
+3,Jemimah Rodrigues,IND-W,N,N,Batter,Right Handed,Right Arm Offbreak,India,05-09-2000
+4,Pratika Rawal,IND-W,N,N,Batter,Right Handed,Right Arm Offbreak,India,01-09-2000
+5,Smriti Mandhana,IND-W,N,N,Batter,Left Handed,Right Arm Medium,India,18-07-1996
+6,Amanjot Kaur,IND-W,N,N,All Rounder,Right Handed,Right Arm Fast medium,India,25-08-2000
+7,Deepti Sharma,IND-W,N,N,All Rounder,Left Handed,Right Arm Offbreak,India,24-08-1997
+8,Sneh Rana,IND-W,N,N,All Rounder,Right Handed,Right Arm Offbreak,India,18-02-1994
+9,Richa Ghosh,IND-W,N,Y,Wicket Keeper,Right Handed,Right Arm Medium,India,28-09-2003
+10,Uma Chetry,IND-W,N,Y,Wicket Keeper,Right Handed,-,India,27-07-2002
+11,Arundhati Reddy,IND-W,N,N,Bowler,Right Handed,Right Arm Fast medium,India,10-04-1997
+12,Kranti Gaud,IND-W,N,N,Bowler,Right Handed,Right Arm Fast medium,India,11-08-2003
+13,Radha Yadav,IND-W,N,N,Bowler,Right Handed,Left Arm Orthodox,India,21-04-2000
+14,Renuka Singh Thakur,IND-W,N,N,Bowler,Right Handed,Right Arm Fast medium,India,02-01-1996
+15,Sree Charani,IND-W,N,N,Bowler,Left Handed,Left Arm Orthodox,India,04-08-2004
+1,Brooke Halliday,NZ-W,N,N,Batter,Left Handed,Right Arm Medium,New Zealand,30-10-1995
+2,Georgia Plimmer,NZ-W,N,N,Batter,Right Handed,Right Arm Medium,New Zealand,08-02-2004
+3,Maddy Green,NZ-W,N,N,Batter,Right Handed,Right Arm Offbreak,New Zealand,20-10-1992
+4,Amelia Kerr,NZ-W,N,N,All Rounder,Right Handed,Right Arm Legbreak,New Zealand,13-10-2000
+5,Flora Devonshire,NZ-W,N,N,All Rounder,Left Handed,Left Arm Medium,New Zealand,13-02-2003
+6,Jess Kerr,NZ-W,N,N,All Rounder,Right Handed,Right Arm Medium,New Zealand,18-01-1998
+7,Sophie Devine,NZ-W,Y,N,All Rounder,Right Handed,Right Arm Medium,New Zealand,01-09-1989
+8,Suzie Bates,NZ-W,N,N,All Rounder,Right Handed,Right Arm Medium,New Zealand,16-09-1987
+9,Bella James,NZ-W,N,Y,Wicket Keeper,Right Handed,-,New Zealand,27-01-1999
+10,Izzy Gaze,NZ-W,N,Y,Wicket Keeper,Right Handed,-,New Zealand,08-05-2004
+11,Polly Inglis,NZ-W,N,Y,Wicket Keeper,Right Handed,Right Arm Medium,New Zealand,31-05-1996
+12,Bree Illing,NZ-W,N,N,Bowler,Left Handed,Left Arm Medium,New Zealand,29-09-2003
+13,Eden Carson,NZ-W,N,N,Bowler,Right Handed,Right Arm Offbreak,New Zealand,08-08-2001
+14,Lea Tahuhu,NZ-W,N,N,Bowler,Right Handed,Right Arm Fast medium,New Zealand,23-09-1990
+15,Rosemary Mair,NZ-W,N,N,Bowler,Right Handed,Right Arm Fast medium,New Zealand,07-11-1998
+1,Aliya Riaz,PAK-W,N,N,Batter,Right Handed,Right Arm Medium,Pakistan,24-09-1992
+2,Eyman Fatima,PAK-W,N,N,Batter,Right Handed,Right Arm Offbreak,Pakistan,12-10-2004
+3,Sadaf Shamas,PAK-W,N,N,Batter,Right Handed,Right Arm Medium,Pakistan,30-12-1998
+4,Shawaal Zulfiqar,PAK-W,N,N,Batter,Right Handed,Right Arm Offbreak,Pakistan,27-06-2005
+5,Sidra Amin,PAK-W,N,N,Batter,Right Handed,Right Arm Fast medium,Pakistan,07-04-1992
+6,Fatima Sana,PAK-W,Y,N,All Rounder,Right Handed,Right Arm Fast medium,Pakistan,08-11-2001
+7,Natalia Pervaiz,PAK-W,N,N,All Rounder,Right Handed,Right Arm Medium,Pakistan,25-12-1995
+8,Omaima Sohail,PAK-W,N,N,All Rounder,Right Handed,Right Arm Offbreak,Pakistan,11-07-1997
+9,Muneeba Ali,PAK-W,N,Y,Wicket Keeper,Left Handed,-,Pakistan,08-08-1997
+10,Sidra Nawaz,PAK-W,N,Y,Wicket Keeper,Right Handed,-,Pakistan,14-03-1994
+11,Diana Baig,PAK-W,N,N,Bowler,Right Handed,Right Arm Medium,Pakistan,15-10-1995
+12,Nashra Sandhu,PAK-W,N,N,Bowler,Right Handed,Left Arm Orthodox,Pakistan,19-11-1997
+13,Rameen Shamim,PAK-W,N,N,Bowler,Left Handed,Right Arm Offbreak,Pakistan,19-01-1996
+14,Sadia Iqbal,PAK-W,N,N,Bowler,Left Handed,Left Arm Orthodox,Pakistan,05-08-1995
+15,Syeda Aroob Shah,PAK-W,N,N,Bowler,Right Handed,Right Arm Legbreak,Pakistan,31-12-2003
+1,Anneke Bosch,SA-W,N,N,Batter,Right Handed,Right Arm Medium,South Africa,17-08-1993
+2,Laura Wolvaardt,SA-W,Y,N,Batter,Right Handed,-,South Africa,26-04-1999
+3,Tazmin Brits,SA-W,N,N,Batter,Right Handed,-,South Africa,08-01-1991
+4,Annerie Dercksen,SA-W,N,N,All Rounder,Right Handed,Right Arm Medium,South Africa,26-04-2001
+5,Chloe Tryon,SA-W,N,N,All Rounder,Right Handed,Left Arm Orthodox,South Africa,25-01-1994
+6,Marizanne Kapp,SA-W,N,N,All Rounder,Right Handed,Right Arm Medium,South Africa,04-01-1990
+7,Nadine De-Klerk,SA-W,N,N,All Rounder,Right Handed,Right Arm Medium,South Africa,16-01-2000
+8,Nondumiso Shangase,SA-W,N,N,All Rounder,Right Handed,Right Arm Offbreak,South Africa,05-04-1996
+9,Sune Luus,SA-W,N,N,All Rounder,Right Handed,Right Arm Offbreak,South Africa,05-01-1996
+10,Karabo Meso,SA-W,N,Y,Wicket Keeper,Right Handed,-,South Africa,18-09-2007
+11,Sinalo Jafta,SA-W,N,Y,Wicket Keeper,Right Handed,-,South Africa,22-12-1994
+12,Ayabonga Khaka,SA-W,N,N,Bowler,Right Handed,Right Arm Medium,South Africa,18-07-1992
+13,Masabata Klaas,SA-W,N,N,Bowler,Right Handed,Right Arm Medium,South Africa,03-02-1991
+14,Nonkululeko Mlaba,SA-W,N,N,Bowler,Right Handed,Left Arm Orthodox,South Africa,27-06-2000
+15,Tumi Sekhukhune,SA-W,N,N,Bowler,Left Handed,Right Arm Fast medium,South Africa,21-11-1998
+1,Harshitha Samarawickrama,SL-W,N,N,Batter,Left Handed,Right Arm Medium,Sri Lanka,29-06-1998
+2,Hasini Perera,SL-W,N,N,Batter,Left Handed,Right Arm Medium,Sri Lanka,27-06-1995
+3,Imesha Dulani,SL-W,N,N,Batter,Right Handed,-,Sri Lanka,20-01-2002
+4,Nilakshika Silva,SL-W,N,N,Batter,Right Handed,Right Arm Medium,Sri Lanka,27-09-1989
+5,Vishmi Gunarathne,SL-W,N,N,Batter,Right Handed,Right Arm Fast medium,Sri Lanka,22-08-2005
+6,Chamari Athapaththu,SL-W,Y,N,All Rounder,Left Handed,Right Arm Offbreak,Sri Lanka,09-02-1990
+7,Dewmi Vihanga,SL-W,N,N,All Rounder,Right Handed,Right Arm Offbreak,Sri Lanka,02-08-2005
+8,Kavisha Dilhari,SL-W,N,N,All Rounder,Right Handed,Right Arm Offbreak,Sri Lanka,24-01-2001
+9,Piumi Wathsala,SL-W,N,N,All Rounder,Right Handed,Right Arm Medium,Sri Lanka,09-11-1995
+10,Anushka Sanjeewani,SL-W,N,Y,Wicket Keeper,Right Handed,-,Sri Lanka,24-01-1990
+11,Achini Kulasuriya,SL-W,N,N,Bowler,Left Handed,Right Arm Medium,Sri Lanka,07-06-1990
+12,Inoka Ranaweera,SL-W,N,N,Bowler,Left Handed,Left Arm Orthodox,Sri Lanka,18-02-1986
+13,Malki Madara,SL-W,N,N,Bowler,Right Handed,Right Arm Medium,Sri Lanka,30-12-2000
+14,Sugandika Kumari,SL-W,N,N,Bowler,Left Handed,Left Arm Orthodox,Sri Lanka,05-10-1990
+15,Udeshika Prabodhani,SL-W,N,N,Bowler,Right Handed,Left Arm Medium,Sri Lanka,20-09-1985

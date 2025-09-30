@@ -1,0 +1,51 @@
+.fib, .fi {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.fi {
+  position: relative;
+  display: inline-block;
+  width: 1.333333em;
+  line-height: 1em;
+}
+.fi:before {
+  content: " ";
+}
+
+.fi-tba {
+  background-image: url(../images/team_flags/TBA.png);
+}
+
+.fi-aus-w {
+  background-image: url(../images/team_flags/AUS-W.png);
+}
+
+.fi-ban-w {
+  background-image: url(../images/team_flags/BAN-W.png);
+}
+
+.fi-eng-w {
+  background-image: url(../images/team_flags/ENG-W.png);
+}
+
+.fi-ind-w {
+  background-image: url(../images/team_flags/IND-W.png);
+}
+
+.fi-nz-w {
+  background-image: url(../images/team_flags/NZ-W.png);
+}
+
+.fi-pak-w {
+  background-image: url(../images/team_flags/PAK-W.png);
+}
+
+.fi-sa-w {
+  background-image: url(../images/team_flags/SA-W.png);
+}
+
+.fi-sl-w {
+  background-image: url(../images/team_flags/SL-W.png);
+}
