@@ -332,8 +332,7 @@ def displayPT():
         dt[10].append(wl)
         dt[11].append(nm)
         dt[12].append(i.qed)
-        print(dt, teams_ABV)
-    return render_template('displayPT.html', PT=dt, TABV=teams_ABV, clr=clr)
+    return render_template('displayPT.html', PT=dt, TABV=teams_ABV, clr=ptclr)
 
 @main.route('/fixtures')
 def displayFR():
@@ -379,7 +378,6 @@ def displayFR():
         dt.append(dtt)
     current_date = datetime.now(tz)
     current_date = current_date.replace(tzinfo=None)
-    print(dt)
     return render_template('displayFR.html', FR=dt, hint=hint, fn=full_name, current_date=current_date, clr=clr)
 
 @main.route('/teams')
@@ -596,7 +594,6 @@ def FRScore(match):
     current_date = current_date.replace(tzinfo=None)
     source = request.args.get('source', None)
     team = request.args.get('fteam', None)
-    print(team)
     if current_date < (matchDT - timedelta(minutes=30)):
         return redirect(url_for('main.matchInfo', match=match, source=source, fteam=team))
     elif current_date >= (matchDT - timedelta(minutes=30)) and MatchFR[10] is None:

@@ -217,6 +217,7 @@ h3.section-title {
       <div class="flex-container">
         {% for i in teams[:-1] %}
         <div class="card-wrapper">
+        <a href="{{ url_for('main.teams', team=i) }}">
 			<div class="card-inner">
 				<div class="card-front" style="--c1: {{ clr[i]['c1'] }}; --c2: {{ clr[i]['c2'] }}; --fc: white;">
 					<img class="card-image" src="/static/images/squad_logos/{{ i }}.png" alt="{{ i }}">
@@ -225,6 +226,7 @@ h3.section-title {
 				{{ i | upper }}
 				</div>
 			</div>
+      </a>
 		</div>
         {% endfor %}
       </div>
