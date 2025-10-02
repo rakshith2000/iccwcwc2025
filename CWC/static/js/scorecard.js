@@ -167,7 +167,7 @@ window.addEventListener('statsReady', () => {
                 <div class="potm-details">
                     <div class="potm-name"><a href="/team-${encodeURIComponent(team)}/squad_details/${encodeURIComponent(name)}">${name}</a></div>
                     <div class="potm-team fw-bold">
-                        <img src="/static/images/squad_logos/${team}.png" alt="Team Logo" class="team-logo">
+                        <img src="/static/images/squad_logos/${team}1.png" alt="Team Logo" class="team-logo">
                         ${fn[team]}
                     </div>
                     <div class="potm-stats">

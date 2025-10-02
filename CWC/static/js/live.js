@@ -255,9 +255,9 @@ window.addEventListener('statsReady', () => {
         <div class="live_4 border rounded_10 bg-white mt-3 pt-3 pb-3">
             <div class="container1">
                 <div class="label-container">
-                    <img src="/static/images/squad_logos/${dt3.score_strip[0].short_name}${dt3.score_strip[0].short_name === 'RR' ? '1' : ''}.png" width="40px" height="40px">
+                    <img src="/static/images/squad_logos/${dt3.score_strip[0].short_name}1.png" width="40px" height="40px">
                     <span><b>Win Probability %</b></span>
-                    <img src="/static/images/squad_logos/${dt3.score_strip[1].short_name}${dt3.score_strip[1].short_name === 'RR' ? '1' : ''}.png" width="40px" height="40px">
+                    <img src="/static/images/squad_logos/${dt3.score_strip[1].short_name}1.png" width="40px" height="40px">
                 </div>
                 <div class="progress-bar">
                     <div class="l-bar" style="--c: ${clr[dt3.score_strip[0].short_name]}; width: ${Math.round(parseFloat(dt3.team_win_probability[dt3.score_strip[0].short_name]))}%"></div>
@@ -290,7 +290,7 @@ window.addEventListener('statsReady', () => {
                 <div class="potm-details">
                     <div class="potm-name"><a href="/team-${encodeURIComponent(team)}/squad_details/${encodeURIComponent(name)}">${name}</a></div>
                     <div class="potm-team fw-bold">
-                        <img src="/static/images/squad_logos/${team}.png" alt="Team Logo" class="team-logo">
+                        <img src="/static/images/squad_logos/${team}1.png" alt="Team Logo" class="team-logo">
                         ${fn[team]}
                     </div>
                     <div class="potm-stats">
@@ -329,7 +329,7 @@ window.addEventListener('statsReady', () => {
                 <div class="potm-details">
                     <div class="potm-name"><a href="/team-${encodeURIComponent(team)}/squad_details/${encodeURIComponent(name)}">${name}</a></div>
                     <div class="potm-team fw-bold">
-                        <img src="/static/images/squad_logos/${team}.png" alt="Team Logo" class="team-logo">
+                        <img src="/static/images/squad_logos/${team}1.png" alt="Team Logo" class="team-logo">
                         ${fn[team]}
                     </div>
                 </div>
@@ -396,7 +396,7 @@ window.addEventListener('statsReady', () => {
             let name = dt3.now_bowling.b1.name;
             let team = dt3.now_bowling.b1.team;
             liveHTML += `<tr>
-                <td class="text-blue" style="text-wrap: nowrap;"><b><a href="/team-${encodeURIComponent(team)}/squad_details/${encodeURIComponent(name)}">${name}</a>&nbsp;<img src="/static/images/Ball.png" width="15px" height="15px" onerror="this.onerror=null; this.src='/static/images/ball.png'"></b></td>
+                <td class="text-blue" style="text-wrap: nowrap;"><b><a href="/team-${encodeURIComponent(team)}/squad_details/${encodeURIComponent(name)}">${name}</a>&nbsp;<img src="/static/images/Ball.png" width="12px" height="12px" onerror="this.onerror=null; this.src='/static/images/ball.png'"></b></td>
                 <td class="px-2">${dt3.now_bowling.b1.stats.overs}</td>
                 <td class="px-2">${dt3.now_bowling.b1.stats.maiden_overs}</td>
                 <td class="px-2">${dt3.now_bowling.b1.stats.runs}</td>

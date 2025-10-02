@@ -185,7 +185,7 @@ window.addEventListener('statsReady', () => {
                                         </div>
                                         <div class="d-block w-100 p-1">
                                             <a href="/team-${encodeURIComponent(player.team)}/squad_details/${encodeURIComponent(player.name)}">
-                                            <div class="font_12 text-blue fw-bold p-0 m-0">${player.name.length > 20 ? player.name.split(' ')[0][0] + " " + player.name.split(' ').slice(1).join(' ') : player.name}</div>
+                                            <div class="font_12 text-blue fw-bold p-0 m-0">${player.name.length > 20 ? player.name.split(' ')[0][0] + " " + player.name.split(' ').slice(1).join(' ') : player.name}&nbsp;${checkCaptain(player)}</div>
 					                        </a>
                                             <div class="font_11 m-0 p-0">${Capitalize(player.role.replace('-', ' '))}</div>
                                         </div>
@@ -197,7 +197,7 @@ window.addEventListener('statsReady', () => {
                 liveHTML += `<div class="d-flex border-bottom border-1">
                                         <div class="d-block w-100 p-1">
                                             <a href="/team-${encodeURIComponent(player.team)}/squad_details/${encodeURIComponent(player.name)}">
-                                            <div class="font_12 text-blue fw-bold p-0 m-0">${player.name.length > 20 ? player.name.split(' ')[0][0] + " " + player.name.split(' ').slice(1).join(' ') : player.name}</div>
+                                            <div class="font_12 text-blue fw-bold p-0 m-0">${checkCaptain(player)}&nbsp;${player.name.length > 20 ? player.name.split(' ')[0][0] + " " + player.name.split(' ').slice(1).join(' ') : player.name}</div>
 					                        </a>
                                             <div class="font_11 m-0 p-0">${Capitalize(player.role.replace('-', ' '))}</div>
                                         </div>
@@ -228,7 +228,7 @@ window.addEventListener('statsReady', () => {
                                         </div>
                                         <div class="d-block w-100 p-1">
                                             <a href="/team-${encodeURIComponent(player.team)}/squad_details/${encodeURIComponent(player.name)}">
-                                            <div class="font_12 text-blue fw-bold p-0 m-0">${player.name.length > 20 ? player.name.split(' ')[0][0] + " " + player.name.split(' ').slice(1).join(' ') : player.name}</div>
+                                            <div class="font_12 text-blue fw-bold p-0 m-0">${player.name.length > 20 ? player.name.split(' ')[0][0] + " " + player.name.split(' ').slice(1).join(' ') : player.name}&nbsp;${checkCaptain(player)}</div>
                                             </a>
                                             <div class="font_11 m-0 p-0">${Capitalize(player.role.replace('-', ' '))}</div>
                                         </div>
@@ -240,7 +240,7 @@ window.addEventListener('statsReady', () => {
                 liveHTML += `<div class="d-flex border-bottom border-1" style="background-color: ${('delta' in player) ? (player.delta === 1 ? '#abf7b1' : '#fcc7c3') : '#ffffff'}">
                                         <div class="d-block w-100 p-1">
                                             <a href="/team-${encodeURIComponent(player.team)}/squad_details/${encodeURIComponent(player.name)}">
-                                            <div class="font_12 text-blue fw-bold p-0 m-0">${player.name.length > 20 ? player.name.split(' ')[0][0] + " " + player.name.split(' ').slice(1).join(' ') : player.name}</div>
+                                            <div class="font_12 text-blue fw-bold p-0 m-0">${checkCaptain(player)}&nbsp;${player.name.length > 20 ? player.name.split(' ')[0][0] + " " + player.name.split(' ').slice(1).join(' ') : player.name}</div>
                                             </a>
                                             <div class="font_11 m-0 p-0">${Capitalize(player.role.replace('-', ' '))}</div>
                                         </div>
@@ -271,7 +271,7 @@ window.addEventListener('statsReady', () => {
                                         </div>
                                         <div class="d-block w-100 p-1">
                                             <a href="/team-${encodeURIComponent(player.team)}/squad_details/${encodeURIComponent(player.name)}">
-                                            <div class="font_12 text-blue fw-bold p-0 m-0">${player.name.length > 20 ? player.name.split(' ')[0][0] + " " + player.name.split(' ').slice(1).join(' ') : player.name}&nbsp;</div>
+                                            <div class="font_12 text-blue fw-bold p-0 m-0">${player.name.length > 20 ? player.name.split(' ')[0][0] + " " + player.name.split(' ').slice(1).join(' ') : player.name}&nbsp;${checkCaptain(player)}</div>
                                             </a>
                                             <div class="font_11 m-0 p-0">${Capitalize(player.role.replace('-', ' '))}</div>
                                         </div>
@@ -283,7 +283,7 @@ window.addEventListener('statsReady', () => {
                 liveHTML += `<div class="d-flex border-bottom border-1" style="background-color: ${('delta' in player) ? (player.delta === 1 ? '#abf7b1' : '#fcc7c3') : '#ffffff'}">
                                         <div class="d-block w-100 p-1">
                                             <a href="/team-${encodeURIComponent(player.team)}/squad_details/${encodeURIComponent(player.name)}">
-                                            <div class="font_12 text-blue fw-bold p-0 m-0">&nbsp;${player.name.length > 20 ? player.name.split(' ')[0][0] + " " + player.name.split(' ').slice(1).join(' ') : player.name}</div>
+                                            <div class="font_12 text-blue fw-bold p-0 m-0">${checkCaptain(player)}&nbsp;${player.name.length > 20 ? player.name.split(' ')[0][0] + " " + player.name.split(' ').slice(1).join(' ') : player.name}</div>
                                             </a>
                                             <div class="font_11 m-0 p-0">${Capitalize(player.role.replace('-', ' '))}</div>
                                         </div>
