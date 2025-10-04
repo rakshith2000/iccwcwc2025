@@ -160,8 +160,8 @@
                     {% if i >= 3 %}{% set bgclr1 = '#ee7171' %}{% set bgclr2 = '#ee2929' %}{% else %}{% set bgclr1 = '#80ee76' %}{% set bgclr2 = '#39b329' %}{% endif %}
                     <tr style="--c1: #2b2a29; --c2: #444444">
                         <td class="text-center" style="background-color: #444444;"> {{ PT[1][i] }} </td>
-                        {% set gradient_color = clr[TABV[i]] %}
-                        <td class="text-center" style="background-color: {{ gradient_color }};">{% if PT[12][i] == "Q" %}<div class="position-indicatorQ"><span>Q</span></div>{% elif PT[12][i] == "E" %}<div class="position-indicatorE"><span>E</span></div>{% endif %}<img src="/static/images/board_logos/{{ TABV[i] }}.png" alt="" width="40px", height="40px"></td>
+                        {% set gradient_color = clr[TABV[i]]['c1'] ~ ', ' ~ clr[TABV[i]]['c2'] %}
+                        <td class="text-center" style="background: linear-gradient(145deg, {{ gradient_color }});">{% if PT[12][i] == "Q" %}<div class="position-indicatorQ"><span>Q</span></div>{% elif PT[12][i] == "E" %}<div class="position-indicatorE"><span>E</span></div>{% endif %}<img src="/static/images/board_logos/{{ TABV[i] }}.png" alt="" width="40px", height="40px"></td>
                         <td class="team-name" full="{{ PT[3][i] }}" short="{{ TABV[i] }}" style="background: linear-gradient(180deg, #2b2a29, #444444)"> <b>{{ PT[3][i] }}</b> </td>
                         {% for j in range(4, 8) %}
                             <td class="text-center">{{ PT[j][i] }}</td>

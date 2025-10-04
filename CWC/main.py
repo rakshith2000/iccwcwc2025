@@ -48,7 +48,7 @@ clr = {'AUS-W':{'c1':'#ffcc00', 'c2':'#006400', 'c3':'#ffd700'},
         'SA-W':{'c1':'#006400', 'c2':'#ffcc00', 'c3':'#007a33'},
         'IND-W':{'c1':"#1a73e8", 'c2':"#ff9933", 'c3':"#0044cc"},
         'BAN-W':{'c1':"#006a4e", 'c2':'#f42a41', 'c3':'#b22222'},
-        'PAK-W':{'c1':"#6FEBC2", 'c2':'#115740', 'c3':'#006400'},
+        'PAK-W':{'c1':"#115740", 'c2':'#6FEBC2', 'c3':'#006400'},
         'SL-W':{'c1':"#1a237e", 'c2':"#ffb700", 'c3':"#003893"},
         'TBA':{'c1':'#ffffff', 'c2':'#ffffff', 'c3':'#ffffff'}}
 
@@ -332,7 +332,7 @@ def displayPT():
         dt[10].append(wl)
         dt[11].append(nm)
         dt[12].append(i.qed)
-    return render_template('displayPT.html', PT=dt, TABV=teams_ABV, clr=ptclr)
+    return render_template('displayPT.html', PT=dt, TABV=teams_ABV, clr=clr)
 
 @main.route('/fixtures')
 def displayFR():
