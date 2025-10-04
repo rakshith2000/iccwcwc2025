@@ -168,7 +168,7 @@ window.addEventListener('statsReady', () => {
                              <span><span class="fi fi-${tid[dt3.squad[0].team_id][0].toLowerCase()} me-1"></span>${tid[dt3.squad[0].team_id][0]}</span>
                              <span class="float-end">${tid[dt3.squad[1].team_id][0]}<span class="fi fi-${tid[dt3.squad[1].team_id][0].toLowerCase()} ms-1"></span></span>
                         </div>`;
-        if (dt3.squad[0].players === null) {
+        if (dt3.squad[0].players === null || dt3.squad[0].players.length === 0) {
             liveHTML += `<div class="bg-bluelight font_14 pt-1 pb-1 text-muted fw-bold" style="text-align: center;">
                             Squad
                         </div>`;
