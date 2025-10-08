@@ -8,10 +8,12 @@ from flask import Blueprint, jsonify, render_template, url_for, redirect, reques
 from flask_login import login_required, current_user
 from sqlalchemy import and_, or_
 from sqlalchemy.sql import text
-import requests
+import requests, warnings
 from bs4 import BeautifulSoup
 from fuzzywuzzy import fuzz, process
 from urllib.request import Request, urlopen
+
+warnings.filterwarnings("ignore")
 
 api = Blueprint('api', __name__)
 

@@ -4,7 +4,9 @@ from flask_login import login_user, logout_user, login_required
 from .models import User
 from . import db
 from datetime import datetime
-import os
+import os, warnings
+
+warnings.filterwarnings("ignore")
 
 auth = Blueprint('auth', __name__)
 
