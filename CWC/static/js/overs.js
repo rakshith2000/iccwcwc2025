@@ -384,5 +384,30 @@ window.addEventListener('statsReady', () => {
     document.querySelectorAll(".clockdiv").forEach(function(clockElement) {
   createTimer(clockElement); // This will start the timer instantly
 });
+// Add Move to Top button logic
+(function() {
+    // Create the button
+    const moveTopBtn = document.createElement('button');
+    moveTopBtn.id = 'moveTopBtn';
+    moveTopBtn.className = 'floating-move-top-btn';
+    moveTopBtn.title = 'Move to Top';
+    moveTopBtn.style.display = 'none';
+    moveTopBtn.innerHTML = '<i class="fa fa-arrow-up"></i>';
+    document.body.appendChild(moveTopBtn);
+
+    // Show/hide button on scroll
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 400) {
+            moveTopBtn.style.display = 'flex';
+        } else {
+            moveTopBtn.style.display = 'none';
+        }
+    });
+
+    // Scroll to top on click
+    moveTopBtn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+})();
 });
 

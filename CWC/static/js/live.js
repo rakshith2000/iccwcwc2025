@@ -396,7 +396,7 @@ window.addEventListener('statsReady', () => {
             let name = dt3.now_bowling.b1.name;
             let team = dt3.now_bowling.b1.team;
             liveHTML += `<tr>
-                <td class="text-blue" style="text-wrap: nowrap;"><b><a href="/team-${encodeURIComponent(team)}/squad_details/${encodeURIComponent(name)}">${name}</a>&nbsp;<img src="/static/images/Ball.png" width="12px" height="12px" onerror="this.onerror=null; this.src='/static/images/ball.png'"></b></td>
+                <td class="text-blue" style="text-wrap: nowrap;"><b><a href="/team-${encodeURIComponent(team)}/squad_details/${encodeURIComponent(name)}">${name}</a>&nbsp;<img src="/static/images/ball.png" width="12px" height="12px" onerror="this.onerror=null; this.src='/static/images/ball.png'"></b></td>
                 <td class="px-2">${dt3.now_bowling.b1.stats.overs}</td>
                 <td class="px-2">${dt3.now_bowling.b1.stats.maiden_overs}</td>
                 <td class="px-2">${dt3.now_bowling.b1.stats.runs}</td>
@@ -564,4 +564,30 @@ window.addEventListener('statsReady', () => {
     document.querySelectorAll(".clockdiv").forEach(function(clockElement) {
   createTimer(clockElement); // This will start the timer instantly
 });
+
+// Add Move to Top button logic
+(function() {
+    // Create the button
+    const moveTopBtn = document.createElement('button');
+    moveTopBtn.id = 'moveTopBtn';
+    moveTopBtn.className = 'floating-move-top-btn';
+    moveTopBtn.title = 'Move to Top';
+    moveTopBtn.style.display = 'none';
+    moveTopBtn.innerHTML = '<i class="fa fa-arrow-up"></i>';
+    document.body.appendChild(moveTopBtn);
+
+    // Show/hide button on scroll
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 400) {
+            moveTopBtn.style.display = 'flex';
+        } else {
+            moveTopBtn.style.display = 'none';
+        }
+    });
+
+    // Scroll to top on click
+    moveTopBtn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+})();
 });
