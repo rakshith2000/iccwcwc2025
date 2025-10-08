@@ -63,16 +63,6 @@ ptclr = {'AUS-W':'#ffcc00',
         'PAK-W':"#0bc941",
         'SL-W':"#ffb700"}
 
-sqclr = {'AUS-W': {'c1': 'hsl(0 94% 52%)', 'c2': 'hsl(51 100% 52%)'},    # Red to Gold
-    'ENG-W': {'c1': 'hsl(310 89% 52%)', 'c2': 'hsl(208 100% 31%)'},   # Pink to Blue
-    'NZ-W': {'c1': 'hsl(225, 31%, 15%)', 'c2': 'hsl(44, 60%, 65%)'},   # Navy to Gold
-    'IND-W': {'c1': 'hsl(310 89% 52%)', 'c2': 'hsl(208 100% 31%)'},   # Pink to Blue
-    'BAN-W': {'c1': 'hsl(225, 31%, 15%)', 'c2': 'hsl(44, 60%, 65%)'},   # Navy to Gold
-    'PAK-W': {'c1': 'hsl(310 89% 52%)', 'c2': 'hsl(208 100% 31%)'},   # Pink to Blue
-    'SL-W': {'c1': 'hsl(225, 31%, 15%)', 'c2': 'hsl(44, 60%, 65%)'},   # Navy to Gold
-    'SA-W': {'c1': 'hsl(195 89% 52%)', 'c2': 'hsl(32 95% 53%)'}     # Light Blue to Gold
-}
-
 def serialize(obj):
     if isinstance(obj, dict):
         return {k: serialize(v) for k, v in obj.items()}
