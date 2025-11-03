@@ -136,10 +136,11 @@ window.addEventListener('statsReady', () => {
             }
             // Insert partnershipHTML into your page as needed
             }
+    const ended = ['won','abandoned','no result'].some(s => dt3.info.toLowerCase().includes(s));
     liveHTML += `
         <ul class="mb-0 bg-tab rounded_bottom score_tab d-flex justify-content-evenly flex-wrap">
         <li class="d-inline-block"><a class="d-block" href="/match-${match}/matchInfo?source=${source}&fteam=${fteam}">Info</a></li>
-        <li class="d-inline-block"><a class="d-block" href="/match-${match}/liveScore?source=${source}&fteam=${fteam}">Live</a></li>
+        <li class="d-inline-block"><a class="d-block" href="/match-${match}/liveScore?source=${source}&fteam=${fteam}">${!ended ? 'Live' : 'Commentary'}</a></li>
         <li class="d-inline-block"><a class="active d-block" href="/match-${match}/scoreCard?source=${source}&fteam=${fteam}">Scorecard</a></li>
         <li class="d-inline-block"><a class="d-block" href="/match-${match}/Overs?source=${source}&fteam=${fteam}">Overs</a></li>
         <li class="d-inline-block"><a class="d-block" href="/match-${match}/liveSquad?source=${source}&fteam=${fteam}">Squad</a></li>
@@ -179,6 +180,35 @@ window.addEventListener('statsReady', () => {
                             <div class="stat-label">Bowl</div>
                             <div class="stat-value">${dt3.player_of_match.bowling_stat === '' ? '-' : dt3.player_of_match.bowling_stat}</div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `;
+       }
+    }
+
+    // Player of the Series section
+    if (dt3.info && dt3.info.toLowerCase().includes('won')) {
+    if (dt3.player_of_series.player_name !== '') {
+        let name = dt3.player_of_series.player_name;
+        let team = dt3.player_of_series.team_name;
+        let c1, c2;
+        c1 = clr2[team].c1; c2 = clr2[team].c2;
+
+        liveHTML += `
+        <div class="score_2_inner border rounded_10 bg-white mt-3 mb-3">
+            <b class="bg-blue-grad font_18 d-block px-3 text-white text-center pt-2 pb-2 rounded_top">Player of the Series</b>
+            <div class="potm-content">
+                <a href="/team-${encodeURIComponent(team)}/squad_details/${encodeURIComponent(name)}">
+                <div class="potm-image text-blue" style="--c1: ${c1}; --c2: ${c2};">
+                    <img src="${dt3.player_images[dt3.player_of_series.player_slug]}" alt="${name}">
+                </div></a>
+                <div class="potm-details">
+                    <div class="potm-name"><a href="/team-${encodeURIComponent(team)}/squad_details/${encodeURIComponent(name)}">${name}</a></div>
+                    <div class="potm-team fw-bold">
+                        <img src="/static/images/squad_logos/${team}1.png" alt="Team Logo" class="team-logo">
+                        ${fn[team]}
                     </div>
                 </div>
             </div>

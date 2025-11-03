@@ -151,10 +151,11 @@ window.addEventListener('statsReady', () => {
             }
             // Insert partnershipHTML into your page as needed
             }
+    const ended = ['won','abandoned','no result'].some(s => dt3.info.toLowerCase().includes(s));
     liveHTML += `
         <ul class="mb-0 bg-tab rounded_bottom score_tab d-flex justify-content-evenly flex-wrap">
         <li class="d-inline-block"><a class="d-block" href="/match-${match}/matchInfo?source=${source}&fteam=${fteam}">Info</a></li>
-        <li class="d-inline-block"><a class="d-block" href="/match-${match}/liveScore?source=${source}&fteam=${fteam}">Live</a></li>
+        <li class="d-inline-block"><a class="d-block" href="/match-${match}/liveScore?source=${source}&fteam=${fteam}">${!ended ? 'Live' : 'Commentary'}</a></li>
         <li class="d-inline-block"><a class="d-block" href="/match-${match}/scoreCard?source=${source}&fteam=${fteam}">Scorecard</a></li>
         <li class="d-inline-block"><a class="d-block" href="/match-${match}/Overs?source=${source}&fteam=${fteam}">Overs</a></li>
         <li class="d-inline-block"><a class="active d-block" href="/match-${match}/liveSquad?source=${source}&fteam=${fteam}">Squad</a></li>
